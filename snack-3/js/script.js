@@ -1,4 +1,10 @@
-for(let i=0; i<=1000; i++){
-    let quadrato=Math.pow(i, 2);
-    console.log(quadrato);
+let risultato=0;
+let potenza=0;
+while(risultato < 1000){
+    risultato=Math.pow(2, potenza);
+    potenza++;
+    
+    if(risultato < 1000){
+     console.log(risultato);
+    }
 }
